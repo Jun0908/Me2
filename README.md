@@ -2,7 +2,7 @@
 # 🎭 Persona Cameo  
 > **AI captures your “now” as a 10-second persona snapshot.**
 
-Pitch Deck: 
+Pitch Deck: https://docs.google.com/presentation/d/1rTtEAs6c-qtgmfcHZvsP1Z9iphgjDoJp/edit?pli=1&slide=id.p1#slide=id.p1
 
 Web: https://me2-sigma.vercel.app/
 
