@@ -1,4 +1,4 @@
-```markdown
+
 # 🎭 Persona Cameo  
 > **AI captures your “now” as a 10-second persona snapshot.**
 
