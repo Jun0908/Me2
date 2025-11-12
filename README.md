@@ -3,6 +3,7 @@
 > **AI captures your “now” as a 10-second persona snapshot.**
 
 Pitch Deck: 
+
 Web: https://me2-sigma.vercel.app/
 
 ---
