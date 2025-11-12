@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```markdown
+# 🎭 Persona Cameo  
+> **AI captures your “now” as a 10-second persona snapshot.**
 
-## Getting Started
+---
 
-First, run the development server:
+## 🧠 Concept  
+Most people struggle to express their inner state — they can’t easily say *why* they feel what they feel.  
+Every therapy session or coaching starts from zero, wasting both time and emotional energy.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Persona Cameo** transforms your daily text, notes, and moments into a short, cinematic snapshot —  
+a **digital cameo of your evolving self**, blending *voice, face, and inner tone* in one frame.  
+
+It’s not about creating content.  
+It’s about **understanding the self as it changes through time.**
+
+---
+
+## 🌈 Why It Matters  
+| Traditional AI | Persona Cameo |
+|----------------|----------------|
+| Generates text or image | Generates **personality + voice + emotion + visual** |
+| Answers your question | **Performs “you”** |
+| Resets every session | Builds a **timeline of evolving identity** |
+| Analytics for self-reflection | **Art for self-understanding** |
+
+---
+
+## 🧩 Technology Overview  
+- **Frontend:** Next.js (App Router + TypeScript + Tailwind)  
+- **AI Core:** OpenAI GPT-4o-mini (structured JSON mode)  
+- **Voice:** Web Speech API (F/M presets)  
+- **Image:** `/public/face.jpg` as the visual anchor  
+- **Storage:** localStorage only — zero backend friction  
+- **Design:** Minimal white aesthetic for emotional clarity  
+
+---
+
+## 🗂️ Project Structure  
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+app/
+├─ api/
+│   └─ cameo/
+│       └─ draft/route.ts      # Calls OpenAI and returns JSON cameo
+├─ cameo/page.tsx              # Frontend UI + local timeline
+├─ layout.tsx
+└─ globals.css
+lib/
+└─ schema.ts                   # Types + validation
+public/
+└─ face.jpg                    # Default portrait
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+````
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Quick Start  
+```bash
+npm install
+echo "OPENAI_API_KEY=sk-xxxx" > .env.local
+npm run dev
+````
 
-To learn more about Next.js, take a look at the following resources:
+Open [http://localhost:3000/cameo](http://localhost:3000/cameo)
+Paste a short text → “Create Cameo” → watch your digital twin appear.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧬 Pitch
 
-## Deploy on Vercel
+> “Don’t just use AI — let AI **perform you**.”
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Persona Cameo** is a portrait for the AI age —
+a living record of how your mind sounds, feels, and evolves.
+It blurs the line between self-reflection and digital performance.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🏆 Motto
+
+> **Move fast, feel deeper.**
+> Lightweight code. Heavy experience.
+
+```
+```
