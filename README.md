@@ -37,7 +37,7 @@ echo "OPENAI_API_KEY=sk-xxxx" > .env.local
 npm run dev
 ````
 
-Open [http://localhost:3000/cameo](http://localhost:3000/cameo)
+Open [http://localhost:3000/cameo](http://localhost:3000/demo)
 Paste a short text → “Create Cameo” → watch your digital twin appear.
 
 ---
