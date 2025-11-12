@@ -26,35 +26,6 @@ It’s about **understanding the self as it changes through time.**
 
 ---
 
-## 🧩 Technology Overview  
-- **Frontend:** Next.js (App Router + TypeScript + Tailwind)  
-- **AI Core:** OpenAI GPT-4o-mini (structured JSON mode)  
-- **Voice:** Web Speech API (F/M presets)  
-- **Image:** `/public/face.jpg` as the visual anchor  
-- **Storage:** localStorage only — zero backend friction  
-- **Design:** Minimal white aesthetic for emotional clarity  
-
----
-
-## 🗂️ Project Structure  
-```
-
-app/
-├─ api/
-│   └─ cameo/
-│       └─ draft/route.ts      # Calls OpenAI and returns JSON cameo
-├─ cameo/page.tsx              # Frontend UI + local timeline
-├─ layout.tsx
-└─ globals.css
-lib/
-└─ schema.ts                   # Types + validation
-public/
-└─ face.jpg                    # Default portrait
-
-````
-
----
-
 ## 🚀 Quick Start  
 ```bash
 npm install
